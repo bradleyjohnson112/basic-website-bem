@@ -1,0 +1,39 @@
+.about {}
+
+.about__inner {
+  max-width: 1200px;
+  padding: 3.4rem 1.4rem 2.8rem 1.4rem;
+  margin: 0 auto;
+  height: 100%;
+  color: var(--primary-text-color);
+}
+
+.about__content {
+  text-align: center;
+}
+
+.about__title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.about__text {
+  margin-bottom: 3.6rem;
+}
+
+@media screen and (min-width: 695px) {
+  .about__inner {
+    display: flex;
+  }
+
+  .about__content {
+    flex: 1;
+    text-align: left;
+    margin-right: 8rem;
+  }
+
+  .about__img {
+    flex: 1;
+  }
+}
